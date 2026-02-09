@@ -6,7 +6,7 @@ const ServiceSection = () => {
       id="servicos"
       className="w-full min-h-screen  mx-auto px-6 py-5 "
     >
-      <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
+      <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-red-900">
         Nossos Pilares 
       </h2>
 

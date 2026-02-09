@@ -23,7 +23,7 @@ const MainSection = () => {
       </div>
 
       {/* HERO */}
-      <section className="relative z-10 mt-24 flex items-center">
+      <section className="relative z-10 mt-[10em] flex items-center">
         <div className="max-w-7xl mx-auto px-6 w-full">
           
           <div className="max-w-3xl">
