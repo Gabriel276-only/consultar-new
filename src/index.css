@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+
+/* index.css */
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Underline animado fluido */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+    background: black;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+    background: red;
+
+}
+
+.nav-link-professional {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link-professional::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #111, #555);
+  transform: translateX(-50%);
+  transition: width 0.4s ease, background 0.3s ease;
+}
+
+.nav-link-professional:hover {
+  color: #222; 
+}
+
+.nav-link-professional:hover::after {
+  width: 100%;
+    background: red;
+}
+
+
+
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-list {
+  overflow: hidden;
+}
