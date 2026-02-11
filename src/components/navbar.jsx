@@ -21,6 +21,8 @@ const NavBar = () => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     setOpen(false);
   };
+   
+
 
   return (
     <nav
