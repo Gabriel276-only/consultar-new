@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* index.css */
 .nav-link {
   position: relative;

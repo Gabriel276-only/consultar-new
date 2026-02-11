@@ -7,7 +7,7 @@ const MainSection = () => {
     <main className="relative w-full">
 
       {/* Curva decorativa */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none select-none">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none select-none" >
        <img
   src={Curve}
   alt=""
