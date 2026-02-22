@@ -31,12 +31,12 @@ const NavBar = () => {
         ${scrolled ? "backdrop-blur-xl bg-white/40 shadow-sm" : "bg-transparent"}
       `}
     >
-      <div className="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
+      <div className="max-w-7xl md:max-w-5xl mx-auto p-3 md:py-2 flex justify-between items-center">
         <Link to="/">
           <img
             src={logo}
             alt="ConsultAR — Saúde e Bem-estar"
-            className="w-[10em] h-[8em]"
+            className="w-[8em] h-[6em]"
           />
         </Link>
 
@@ -80,8 +80,8 @@ const NavBar = () => {
       >
         <div className="bg-white/60 backdrop-blur-xl px-6 pb-4 flex flex-col gap-4 text-lg">
           <Link to="/" onClick={() => setOpen(false)}>Início</Link>
-          <button onClick={() => scrollTo("sobre-nos")}>Sobre</button>
-          <button onClick={() => scrollTo("servicos")}>Serviços</button>
+          <button className="flex" onClick={() => scrollTo("sobre-nos")}>Sobre</button>
+          <button className="flex" onClick={() => scrollTo("servicos")}>Serviços</button>
           <Link to="/professional" onClick={() => setOpen(false)}>
             Encontre um <span className="text-red-700">Profissional</span>
           </Link>
