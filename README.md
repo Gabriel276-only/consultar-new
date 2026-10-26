@@ -1,16 +1,35 @@
-# React + Vite
+# ConsultAR — Saúde e Bem-Estar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O site da ConsultAR apresenta o consultório, sua equipe e os serviços de saúde e bem-estar oferecidos. A página inicial reúne informações sobre áreas de atendimento, profissionais, convênios e espaços do consultório. A ferramenta de busca permite encontrar profissionais por área ou tema e acessar opções de contato.
 
-Currently, two official plugins are available:
+## Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação é uma interface web de página única (SPA), desenvolvida com React e Vite. O React Router organiza a navegação entre a página inicial (`/`) e a busca de profissionais (`/professional`). Os componentes da interface ficam em `src/components/`, as páginas em `src/pages/` e os arquivos estáticos, como imagens e logos, em `public/assets/`.
 
-## React Compiler
+A busca filtra a lista de profissionais por área de atendimento ou tema. Os resultados incluem links para contato pelo WhatsApp, e a página também oferece acesso à equipe ConsultAR. O layout e os estilos próprios do projeto estão em `src/App.css` e `src/index.css`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- React e React DOM
+- Vite
+- React Router
+- ESLint
+- Font Awesome, Framer Motion, React Slick e Swiper
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Executar localmente
+
+Requer Node.js e npm.
+
+```bash
+npm install
+npm run dev
+```
+
+O Vite informará no terminal o endereço local da aplicação.
+
+## Comandos
+
+- `npm run dev` — inicia o servidor de desenvolvimento.
+- `npm run build` — gera os arquivos de produção em `dist/`.
+- `npm run preview` — pré-visualiza a versão de produção.
+- `npm run lint` — verifica o código com ESLint.
