@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "./App.css";
+
+.slick-slide > div { height: 100%; }
+.slick-list { overflow: hidden; }
