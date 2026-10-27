@@ -7,7 +7,7 @@ const Footer = () => (
   <footer className="bg-[#3e292e] px-7 pt-[55px] text-[#f5f1e9] max-[700px]:px-[22px] max-[700px]:pt-[39px]">
     <div className="mx-auto grid max-w-[1160px] grid-cols-[1.25fr_.72fr_1fr_1.15fr] gap-[45px] pb-[43px] max-[900px]:grid-cols-2 max-[900px]:gap-[33px] max-[700px]:gap-x-5 max-[700px]:gap-y-[26px] max-[700px]:pb-[30px]">
       <div className="max-[700px]:col-span-full">
-        <img className="h-16 w-[115px] object-contain object-left brightness-0 invert opacity-[.92]" src="public/assets/logos/logo-removebg-preview.png" alt="ConsultAR" />
+        <img className="h-16 w-[115px] object-contain object-left brightness-0 invert opacity-[.92]" src="/assets/logos/logo-removebg-preview.png" alt="ConsultAR" />
         <p className="my-[10px] mb-[17px] max-w-[220px] text-[11px] leading-[1.7] text-[#c4c1b9]">Saúde e bem-estar com um olhar integrativo e humanizado.</p>
         <div className="flex gap-[13px] text-[17px] text-[#d4c8bc] [&_a:hover]:text-white">
           <a href="https://www.instagram.com/consultarsaudebemestar/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da ConsultAR"><FontAwesomeIcon icon={faInstagram} /></a>

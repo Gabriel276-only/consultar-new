@@ -11,7 +11,7 @@ const NavBar = () => {
     <header className="sticky top-0 z-30 border-b border-line/80 bg-cream/95 backdrop-blur-[14px]">
       <nav className="mx-auto flex h-[82px] max-w-[1220px] items-center justify-between px-7 max-[700px]:h-[70px] max-[700px]:px-[18px]" aria-label="Navegação principal">
         <Link to="/" className="flex items-center" onClick={closeMenu} aria-label="ConsultAR, início">
-          <img className="h-[68px] w-[108px] object-contain max-[700px]:h-[59px] max-[700px]:w-[94px]" src="public/assets/logos/logo-removebg-preview.png" alt="ConsultAR Saúde e Bem-Estar" />
+          <img className="h-[68px] w-[108px] object-contain max-[700px]:h-[59px] max-[700px]:w-[94px]" src="/assets/logos/logo-removebg-preview.png" alt="ConsultAR Saúde e Bem-Estar" />
         </Link>
         <button className="border-0 bg-transparent p-2 min-[701px]:hidden" type="button" onClick={() => setIsOpen(!isOpen)} aria-expanded={isOpen} aria-label={isOpen ? 'Fechar menu' : 'Abrir menu'}>
           <span className="my-[5px] block h-0.5 w-[23px] bg-ink" /><span className="my-[5px] block h-0.5 w-[23px] bg-ink" /><span className="my-[5px] block h-0.5 w-[23px] bg-ink" />
